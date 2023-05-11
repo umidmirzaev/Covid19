@@ -1,3 +1,3 @@
-# covid19
+## Covid19
 
-Data engineering project - building ETIL pipeline on AWS Cloud
+Data engineering project - building ETL pipeline on AWS Cloud
