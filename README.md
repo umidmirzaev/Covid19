@@ -24,4 +24,7 @@ To build an end-to-end data pipeline for this project, we'll be utilizing the fo
 - **Amazon S3**: S3 (Simple Storage Service) is an object storage service that will be used to store our raw and transformed data. It provides high durability, availability, and scalability.
 - **IAM (Identity and Access Management)**: IAM will be employed to manage user access and permissions to various AWS resources, ensuring secure and controlled data handling.
 
+## Data Model
+Before:
 
+After:
