@@ -26,5 +26,6 @@ To build an end-to-end data pipeline for this project, we'll be utilizing the fo
 
 ## Data Model
 Before:
+![Before Data Modeling](Images/After Data modeling.jpg)
 
 After:
