@@ -30,5 +30,4 @@ Before:
 
 After:
 
-
 ![Example Image](https://github.com/umidmirzaev/Covid19/blob/main/images/after.jpg?raw=true)
