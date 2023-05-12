@@ -5,7 +5,17 @@ Welcome to the COVID-19 Data Engineering Project! The main objective of this pro
 
 The project follows an Extract, Transform, Load (ETL) approach, where users can extract, load, and transform the data to gain valuable insights. The ultimate goal is to create a simple data engineering project that enables efficient handling and analysis of COVID-19 data.
 
+## Important prerequisites
+
+1. Create an IAM role named "s3-glue-role": This role should grant Glue the necessary permissions to call AWS services on your behalf.
+2. Create Redshift Cluster and Configure VPC Security Group: Set up a Redshift cluster and adjust the VPC security group to allow inbound access by adding a new rule for your IP address.
+3. Create an IAM role named "redshift_s3_access": This role should provide Redshift with permission to access data stored in Amazon S3.
+4. Prepare Glue Environment for Redshift Job: Prior to creating a job in Glue, download the necessary external redshift-connector and boto3 library. Since Glue has limited support for default libraries, create a zip package containing these libraries and upload it to an S3 bucket.
+5. Establish JDBC Connection to Redshift Cluster:To ensure successful execution of a job, create a JDBC connection to your Redshift cluster.
+6. Create VPC Endpoint for Amazon S3:It is essential to create a VPC endpoint for Amazon S3 to establish connectivity between the VPC of your Glue job and S3.
+
 ## Key steps:
+
 1. Upload 'COVID-19 Data Lake' from a Registry of Open Data on AWS to Amazon S3: The project begins by uploading the 'COVID-19 Data Lake' from a Registry of Open Data onto the Amazon S3 storage service. 
 2. Create and Run Crawlers in Amazon Athena: Next, we set up and execute crawlers within Amazon Athena. These crawlers scan the tables stored in the Amazon S3 buckets, extracting structured data and making it easily accessible for analysis.
 3. Python ETL Job: We implement an ETL job in Python, which focuses on converting the relational data model into a dimensional data model using a STAR schema. 
@@ -37,10 +47,4 @@ After data modeling:
 ![Example Image](https://github.com/umidmirzaev/Covid19/blob/main/images/after.jpg?raw=true)
 
 
-## Important prerequisites
-1. Create an IAM role named "s3-glue-role": This role should grant Glue the necessary permissions to call AWS services on your behalf.
-2. Create Redshift Cluster and Configure VPC Security Group: Set up a Redshift cluster and adjust the VPC security group to allow inbound access by adding a new rule for your IP address.
-3. Create an IAM role named "redshift_s3_access": This role should provide Redshift with permission to access data stored in Amazon S3.
-4. Prepare Glue Environment for Redshift Job: Prior to creating a job in Glue, download the necessary external redshift-connector and boto3 library. Since Glue has limited support for default libraries, create a zip package containing these libraries and upload it to an S3 bucket.
-5. Establish JDBC Connection to Redshift Cluster:To ensure successful execution of a job, create a JDBC connection to your Redshift cluster.
-6. Create VPC Endpoint for Amazon S3:It is essential to create a VPC endpoint for Amazon S3 to establish connectivity between the VPC of your Glue job and S3.
+
