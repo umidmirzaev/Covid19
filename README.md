@@ -25,9 +25,13 @@ To build an end-to-end data pipeline for this project, we'll be utilizing the fo
 - **IAM (Identity and Access Management)**: IAM will be employed to manage user access and permissions to various AWS resources, ensuring secure and controlled data handling.
 
 ## Data Model
-Before:
+
+Converting our relational data model to dimensional model by building a STAR schema
+
+Before data modeling:
+
 ![Example Image](https://github.com/umidmirzaev/Covid19/blob/main/images/before.jpg?raw=true)
 
-After:
+After data modeling:
 
 ![Example Image](https://github.com/umidmirzaev/Covid19/blob/main/images/after.jpg?raw=true)
