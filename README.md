@@ -14,7 +14,7 @@ The project follows an Extract, Transform, Load (ETL) approach, where users can 
 5. Establish JDBC Connection to Redshift Cluster:To ensure successful execution of a job, create a JDBC connection to your Redshift cluster.
 6. Create VPC Endpoint for Amazon S3:It is essential to create a VPC endpoint for Amazon S3 to establish connectivity between the VPC of your Glue job and S3.
 
-## Key steps:
+## Key steps
 
 1. Upload 'COVID-19 Data Lake' from a Registry of Open Data on AWS to Amazon S3: The project begins by uploading the 'COVID-19 Data Lake' from a Registry of Open Data onto the Amazon S3 storage service. 
 2. Create and Run Crawlers in Amazon Athena: Next, we set up and execute crawlers within Amazon Athena. These crawlers scan the tables stored in the Amazon S3 buckets, extracting structured data and making it easily accessible for analysis.
@@ -45,6 +45,11 @@ Before data modeling:
 After data modeling:
 
 ![Example Image](https://github.com/umidmirzaev/Covid19/blob/main/images/after.jpg?raw=true)
+
+
+## Further Improvement
+
+In addition to the project's results, there exist opportunities for analysis and visualization. By establishing a connection between Redshift and visualization tools such as Tableau or Power BI, it becomes feasible to conduct analysis and construct visualization tables. This integration enables users to explore the data further, extract meaningful insights, and present them in visually informative formats.
 
 
 
