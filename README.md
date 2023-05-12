@@ -26,6 +26,6 @@ To build an end-to-end data pipeline for this project, we'll be utilizing the fo
 
 ## Data Model
 Before:
-![Before Data Modeling](Images/before.jpg)
+![Before Data Modeling]([Images/before.jpg](https://github.com/umidmirzaev/Covid19/blob/00322db39165f4ed4ca6e0bec59d68e9ea3cd3f7/images/before.jpg))
 
 After:
