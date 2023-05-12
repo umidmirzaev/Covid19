@@ -5,6 +5,10 @@ Welcome to the COVID-19 Data Engineering Project! The main objective of this pro
 
 The project follows an Extract, Transform, Load (ETL) approach, where users can extract, load, and transform the data to gain valuable insights. The ultimate goal is to create a simple data engineering project that enables efficient handling and analysis of COVID-19 data.
 
+## Architecture
+
+![Example Image](https://github.com/umidmirzaev/Covid19/blob/main/images/Architecture.png?raw=true)
+
 ## Important prerequisites
 
 1. Create an IAM role named "s3-glue-role": This role should grant Glue the necessary permissions to call AWS services on your behalf.
