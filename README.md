@@ -29,4 +29,6 @@ Before:
 ![Example Image](https://github.com/umidmirzaev/Covid19/blob/main/images/before.jpg?raw=true)
 
 After:
+
+
 ![Example Image](https://github.com/umidmirzaev/Covid19/blob/main/images/after.jpg?raw=true)
