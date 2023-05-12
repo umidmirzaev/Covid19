@@ -21,12 +21,12 @@ To build an end-to-end data pipeline for this project, we'll be utilizing the fo
 - **Amazon Athena**: Athena is instrumental in running queries on our data stored in Amazon S3. It allows us to analyze structured and semi-structured data using standard SQL syntax.
 - **AWS Glue**: Glue is an ETL (Extract, Transform, Load) service provided by AWS. We'll utilize it to create and run our ETL jobs, transforming data between various formats and storing it in the desired destination.
 - **Amazon Redshift**: Redshift is a fully-managed data warehousing service offered by AWS. It will serve as our storage and querying solution for large-scale data analysis.
-- **Amazon S3**: S3 (Simple Storage Service) is an object storage service that will be used to store our raw and transformed data. It provides high durability, availability, and scalability.
+- **Amazon S3**: S3 (Simple Storage Service) is an object storage service on AWS that will be used to store our raw and transformed data. It provides high durability, availability, and scalability.
 - **IAM (Identity and Access Management)**: IAM will be employed to manage user access and permissions to various AWS resources, ensuring secure and controlled data handling.
 
 ## Data Model
 
-Converting our relational data model to dimensional model by building a STAR schema
+Converting our relational data model to dimensional model by building a STAR schema.
 
 Before data modeling:
 
@@ -35,3 +35,4 @@ Before data modeling:
 After data modeling:
 
 ![Example Image](https://github.com/umidmirzaev/Covid19/blob/main/images/after.jpg?raw=true)
+
