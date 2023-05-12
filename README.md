@@ -28,4 +28,4 @@ To build an end-to-end data pipeline for this project, we'll be utilizing the fo
 Before:
 ![Example Image](https://github.com/umidmirzaev/Covid19/blob/main/images/before.jpg?raw=true)
 
-After:
+After:![Example Image](https://github.com/umidmirzaev/Covid19/blob/main/images/after.jpg?raw=true)
